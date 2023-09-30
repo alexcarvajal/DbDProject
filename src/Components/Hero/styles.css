@@ -1,0 +1,130 @@
+.Hero {
+    display: flex;
+    position: relative;
+    align-items: center; /* Si deseas que las imágenes se alineen verticalmente en el centro */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    overflow: hidden;
+   height: 80vh;
+}
+
+.LeftHero{
+    width: 70%;
+    position: absolute;
+    transform: translateX(-10px);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    clip-path: polygon(0% 0%, 90% 0%,85% 100%, 0% 100%);
+   object-fit: cover;
+}
+
+.LogoLetraVertical{
+    position: absolute;
+    top: 20%;  /* Puedes ajustar estos valores para posicionar la imagen de primer plano como quieras */
+    left: 2%;
+    width: 20%;  /* Tamaño de la imagen de primer plano */
+    z-index:3 ;
+}
+.buyGame{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    padding: 0 20px;
+    width: 25%;
+    height: 55px;
+    z-index:3 ;
+    font-size: 22px;
+    font-weight: 600;
+    background-image: url("/BackgroundRed.svg");
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+.buyGame:hover{
+    filter: brightness(0.85);
+    -webkit-filter: brightness(0.85);
+}
+.first{
+    position:absolute;
+    top:60%;
+    z-index: 3;
+    left:5%;
+    font-size: 24px;
+    transition: color 0.5s ease;
+
+}
+.second{
+    position:absolute;
+    top:60%;
+    z-index: 3;
+    left:14%;
+    font-size: 24px;
+    transition: color 0.5s ease;
+
+}
+.third{
+    position:absolute;
+    top:60%;
+    z-index: 3;
+    left:24%;
+    font-size: 24px;
+    transition: color 0.5s ease;
+}
+
+.first:hover, .second:hover, .third:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+.LogoIGN{
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    padding: 0 20px;
+    width: 8%;
+    height: 55px;
+    z-index:3;
+    font-size: 22px;
+    font-weight: 600;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+.PCGamer
+{
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    padding: 0 20px;
+    width: 8%;
+    height: 55px;
+    z-index:3;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+.GameSpot
+{
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    padding: 0 20px;
+    width: 8%;
+    height: 55px;
+    z-index:3;
+    transition: filter 0.5s ease;
+    cursor: pointer;
+}
+
+.RightHero{
+    width: 70%;
+    transform: translateX(250px);
+    justify-content: flex-end;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    object-fit: cover;
+    height: 100vh;
+    object-fit: cover;
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -o-transform: translateX(250px);
+}

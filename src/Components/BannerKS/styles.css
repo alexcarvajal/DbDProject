@@ -1,0 +1,122 @@
+.container-ks {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+}
+.solo {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 45%;
+    margin-right: 2.5%;
+    background-color: red;
+    padding: 30px 40px;
+    background: linear-gradient(to bottom right, rgb(105 5 4) 20%, rgb(170 26 24)50%);
+}
+.solo-column {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: end;
+}
+
+.TextKiller {
+    font-size: 48px;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.KillerSolo {
+    font-size: 36px;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.GamePlay-Killer {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    border: 3px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 190px;
+    margin-right: 20%;
+    padding: 0px 15px;
+    margin-top: 20px;
+    background-color: rgb(105 5 4);
+}
+
+.GamePlay-Killer:hover {
+    background-color: rgb(170 26 24);
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}
+
+.killerIcon {
+    width: 90px;
+    height: 90px;
+}
+
+.co-op {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 45%;
+        margin-left: 2.5%;
+        background-color: red;
+        padding: 30px 40px;
+        background: linear-gradient(to top left, rgb(10 45 87) 20%, rgb(46 99 161)50%);
+
+}
+.TextSurv{
+    font-size: 48px;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.SurvCoop{
+    font-size: 36px;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.coop-column{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+}
+
+.SurvIcon{
+        width: 90px;
+        height: 90px;
+}
+
+.GamePlay-Surv {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    border: 3px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 190px;
+    margin-left: 20%;
+    padding: 0px 15px;
+    margin-top: 10px;
+    background-color: rgb(10 45 87);
+}
+.GamePlay-Surv:hover {
+    background-color: rgb(46 99 161);
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+}

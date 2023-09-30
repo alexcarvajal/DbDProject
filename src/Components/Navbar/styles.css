@@ -1,0 +1,42 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgb(210, 215, 233);
+  }
+  
+  /* Estilos para la parte izquierda de la barra de navegación (logo) */
+  .navbar-left img {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    margin: 10px 20px;
+  }
+  
+  /* Estilos para la parte central de la barra de navegación (botones) */
+  .navbar-center button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  .navbar img {
+    transition: height 0.3s ease; /* Esta línea añade una transición suave al cambiar la altura del logo */
+}
+  /* Estilos para la parte derecha de la barra de navegación (botón de la derecha) */
+  .navbar-right button {
+    background-image: url("/BackgroundRed.svg"); /* Cambia el color de fondo del botón de la derecha */
+    color: white;
+    padding: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  

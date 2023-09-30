@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    width: auto;
+    height: 120vh;
+    overflow: hidden;
+    padding : 0 0 20px 0;
+/* Esto añade perspectiva al contenedor */
+  }
+  
+  .background, .foreground {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: center center; /* Asegura que la escala sea desde el centro */
+  }
+
+  .background img, .foreground img {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+ /*  .background {
+    animation-name: scaleBackground;
+  } */
+  
+  .foreground {
+    animation-name: scaleForeground;
+  }
+/*   
+  @keyframes scaleBackground {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05); /* Aumenta ligeramente la escala para que parezca que se acerca 
+    }
+  } 
+  */
+  
+  @keyframes scaleForeground {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.96);
+      /*Disminuyeligeramentelaescalaparaqueparezcaquesealeja*/:;
+      -webkit-transform: scale(0.96);
+      -moz-transform: scale(0.96);
+      -ms-transform: scale(0.96);
+      -o-transform: scale(0.96);
+}
+  }
