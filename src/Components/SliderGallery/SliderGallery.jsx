@@ -14,8 +14,6 @@ function SliderGallery(){
       'Sé impredecible',
       'Obtén recompensas'
     ]
-     
-    
   return (
     <div className="sliderGallery">
         <Gallery images={images} title={title}/>

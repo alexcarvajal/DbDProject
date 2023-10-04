@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url('../../../assets/BackgroundGallery.jpg'); 
+    background-repeat: no-repeat;
+    background-size: auto 130%;
+    
   }
   .image-preview img {
     width: 70%;
@@ -55,3 +61,18 @@
     margin-left: 120px;
     bottom: 10%;    
   }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+}
+  
