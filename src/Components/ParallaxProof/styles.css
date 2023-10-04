@@ -49,7 +49,6 @@
     }
     50% {
       transform: scale(0.96);
-      /*Disminuyeligeramentelaescalaparaqueparezcaquesealeja*/:;
       -webkit-transform: scale(0.96);
       -moz-transform: scale(0.96);
       -ms-transform: scale(0.96);

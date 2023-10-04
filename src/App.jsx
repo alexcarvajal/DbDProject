@@ -5,7 +5,8 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero';
 import  BannerLogos  from './Components/BannerLogos';
 import BannerKS from './Components/BannerKS';
- import { Parallax } from './Components/ParallaxProof';
+ import IconsOfHorror from './Components/IconsOFHorror';
+ import SliderGallery from './Components/SliderGallery/SliderGallery';
  function App() {
   const [loading, setLoading] = useState(true);
 
@@ -25,7 +26,9 @@ import BannerKS from './Components/BannerKS';
      <Hero />
      <BannerLogos />
        <BannerKS />
-     <Parallax />
+     {/* <Parallax /> */}
+     <IconsOfHorror />
+     <SliderGallery />
     </>
   )
 }
