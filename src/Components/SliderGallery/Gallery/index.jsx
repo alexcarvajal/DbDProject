@@ -24,6 +24,7 @@ const Gallery = ({ images,title }) => {
 
   return (
     <div className="gallery-container">
+      <span className="title">GALERÍA</span>
       <div className={`image-preview ${animationClass}`}>
         <img src={selectedImage} alt="Selected" />
         <h1 className="text-title">{selectedTitle} </h1>

@@ -9,12 +9,19 @@
     background-size: auto 130%;
     
   }
+  .title{
+    position:absolute;
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
   .image-preview img {
-    width: 70%;
+    width: 65%;
     height: auto;
     margin-right: 20px;
-    margin-left: 120px;
-    margin-top: 5%;
+    margin-left: 15%;
+    margin-top: 15%;
     display: block;
 }
 
@@ -30,14 +37,14 @@
     height: 80px; /* Cambia a la longitud de borde deseada */
   }
 .image-preview::before{
-    top: 9%;
-    left: 9%;
+    top: 25%;
+    left: 15%;
     border-bottom: none;
     border-right: none;
 }
 .image-preview::after{
-        bottom: 20%;
-        right: 20.5%;
+        bottom: 12%;
+        right: 20%;
         border-top: none;
         border-left: none;
 }
@@ -58,8 +65,8 @@
     letter-spacing: 1px;
     font-weight: 100;
     position:absolute;
-    margin-left: 120px;
-    bottom: 10%;    
+    margin-left: 15%;
+    bottom: 2%;    
   }
 
   @keyframes fadeIn {
@@ -70,9 +77,8 @@
       opacity: 1;
     }
   }
-  
   .fade-in {
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 0.5s;
+    -webkit-animation: fadeIn 0.5s;
 }
   
